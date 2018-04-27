@@ -1,0 +1,8 @@
+
+execute as @s[type=item_frame] unless score @s bb.success matches 1.. positioned ~ ~ ~ if block ~ ~ ~ dropper[facing=up] if block ~ ~ ~1 #boomber.block_placer:is_placeable store result score @s bb.success run function boomber.block_placer:block_placer/direction/up
+execute as @s[type=item_frame] unless score @s bb.success matches 1.. positioned ~ ~ ~ if block ~ ~ ~ dropper[facing=down] if block ~ ~ ~-1 #boomber.block_placer:is_placeable store result score @s bb.success run function boomber.block_placer:block_placer/direction/down
+execute as @s[type=item_frame] unless score @s bb.success matches 1.. positioned ~ ~ ~ if block ~ ~ ~ dropper[facing=south] if block ~ ~ ~1 #boomber.block_placer:is_placeable store result score @s bb.success run function boomber.block_placer:block_placer/direction/south
+execute as @s[type=item_frame] unless score @s bb.success matches 1.. positioned ~ ~ ~ if block ~ ~ ~ dropper[facing=north] if block ~ ~ ~-1 #boomber.block_placer:is_placeable store result score @s bb.success run function boomber.block_placer:block_placer/direction/north
+execute as @s[type=item_frame] unless score @s bb.success matches 1.. positioned ~ ~ ~ if block ~ ~ ~ dropper[facing=east] if block ~1 ~ ~ #boomber.block_placer:is_placeable store result score @s bb.success run function boomber.block_placer:block_placer/direction/east
+execute as @s[type=item_frame] unless score @s bb.success matches 1.. positioned ~ ~ ~ if block ~ ~ ~ dropper[facing=west] if block ~-1 ~ ~ #boomber.block_placer:is_placeable store result score @s bb.success run function boomber.block_placer:block_placer/direction/west
+execute as @s[type=item_frame,scores={bb.success=1..}] run tag @s add bb.place_block

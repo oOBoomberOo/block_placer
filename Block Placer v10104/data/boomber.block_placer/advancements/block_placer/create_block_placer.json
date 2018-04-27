@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": "Block Placer",
+		"description": "Place item frame on dropper and put redstone dust inside item frame",
+		"icon": {
+			"item": "minecraft:dropper"
+		},
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "boomber.block_placer:block_placer/root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:dropper"
+					},
+					{
+						"item": "minecraft:redstone"
+					},
+					{
+						"item": "minecraft:item_frame"
+					}
+				]
+			}
+		}
+	}
+}

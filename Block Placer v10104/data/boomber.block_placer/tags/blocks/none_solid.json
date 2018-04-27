@@ -1,0 +1,30 @@
+{
+	"values": [
+		"#boomber.block_placer:placeable",
+		"minecraft:sea_pickle",
+		"minecraft:glass",
+		"minecraft:glass_pane",
+		"minecraft:sea_lantern",
+		"#boomber.block_placer:stained_glass_pane",
+		"#boomber.block_placer:stained_glass",
+		"#minecraft:slabs",
+		"#minecraft:stairs",
+		"#minecraft:flower_pots",
+		"#minecraft:doors",
+		"#minecraft:rails",
+		"#minecraft:carpets",
+		"#minecraft:anvil",
+		"#minecraft:banners",
+		"#minecraft:buttons",
+		"#minecraft:saplings",
+		"#minecraft:wooden_pressure_plates",
+		"minecraft:oak_fence",
+		"minecraft:spruce_fence",
+		"minecraft:birch_fence",
+		"minecraft:jungle_fence",
+		"minecraft:acacia_fence",
+		"minecraft:dark_oak_fence",
+		"minecraft:nether_brick_fence"
+
+	]
+}

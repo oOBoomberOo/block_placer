@@ -1,0 +1,17 @@
+{
+	"display": {
+		"description": "Datapack Installed",
+		"title": "Block placer v10104",
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/blocks/stone_bricks.png"
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

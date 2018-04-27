@@ -1,2 +1,2 @@
-# block_placer
+# Block placer
 Minecraft Datapack

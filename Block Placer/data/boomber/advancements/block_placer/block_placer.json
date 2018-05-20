@@ -1,0 +1,17 @@
+{
+	"display": {
+		"description": "",
+		"title": "Block placer v10105",
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "boomber:root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

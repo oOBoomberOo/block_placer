@@ -1,5 +1,5 @@
 {
 	"values": [
-		"#boomber.block_placer:loop"
+		"#boomber:block_placer/loop"
 	]
 }
